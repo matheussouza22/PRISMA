@@ -1,4 +1,4 @@
-# 📊 PRISMA - Base de Dados de Horários de Transporte
+# 📊 TESTE PRISMA - Base de Dados de Horários de Transporte
 
 Este repositório contém um banco de dados com horários de saída dos modais do RJ, extraídos de forma automatizada. A base foi desenvolvida para fins de análise de transporte público e planejamento logístico no município do Rio de Janeiro.
 
