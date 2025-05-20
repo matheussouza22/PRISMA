@@ -29,14 +29,15 @@ Abaixo, listo todos os tipos de ID que você deve criar, seguidos de modelos pad
 
 ✅ TIPOS DE ID NO GTFS
 
-Tipo de ID Arquivo GTFS Finalidade
-agency_id agency.txt Identifica a operadora do serviço (ex: Supervia, MetrôRio, CCR Barcas)
-route_id routes.txt Identifica a linha ou ramal específico (ex: RAMAL_SARACURUNA)
-trip_id trips.txt Identifica uma viagem específica
-service_id calendar.txt Identifica o conjunto de dias de operação
-stop_id stops.txt Identifica cada parada ou estação
-shape_id shapes.txt Identifica a linha geográfica da rota no mapa
-fare_id fare_attributes.txt (Opcional) Identifica tarifas diferenciadas
+| Tipo de ID   | Arquivo GTFS          | Finalidade                                                             |
+| ------------ | --------------------- | ---------------------------------------------------------------------- |
+| `agency_id`  | `agency.txt`          | Identifica a operadora do serviço (ex: Supervia, MetrôRio, CCR Barcas) |
+| `route_id`   | `routes.txt`          | Identifica a linha ou ramal específico (ex: RAMAL_SARACURUNA)          |
+| `trip_id`    | `trips.txt`           | Identifica uma viagem específica                                       |
+| `service_id` | `calendar.txt`        | Identifica o conjunto de dias de operação                              |
+| `stop_id`    | `stops.txt`           | Identifica cada parada ou estação                                      |
+| `shape_id`   | `shapes.txt`          | Identifica a linha geográfica da rota no mapa                          |
+| `fare_id`    | `fare_attributes.txt` | _(Opcional)_ Identifica tarifas diferenciadas                          |
 
 ⸻
 
