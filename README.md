@@ -18,3 +18,71 @@ Com HTTPS:
 ```bash
 git clone https://github.com/matheussouza22/PRISMA.git
 ```
+
+---
+
+Excelente iniciativa! Para um feed GTFS completo e bem estruturado, é fundamental definir corretamente os identificadores (ID) para os principais componentes do sistema de transporte.
+
+Abaixo, listo todos os tipos de ID que você deve criar, seguidos de modelos padronizados por modal (ônibus, metrô, Supervia/trem, VLT e barcas).
+
+⸻
+
+✅ TIPOS DE ID NO GTFS
+
+Tipo de ID Arquivo GTFS Finalidade
+agency_id agency.txt Identifica a operadora do serviço (ex: Supervia, MetrôRio, CCR Barcas)
+route_id routes.txt Identifica a linha ou ramal específico (ex: RAMAL_SARACURUNA)
+trip_id trips.txt Identifica uma viagem específica
+service_id calendar.txt Identifica o conjunto de dias de operação
+stop_id stops.txt Identifica cada parada ou estação
+shape_id shapes.txt Identifica a linha geográfica da rota no mapa
+fare_id fare_attributes.txt (Opcional) Identifica tarifas diferenciadas
+
+⸻
+
+🎯 MODELOS DE ID POR MODAL
+
+🚍 Ônibus
+• agency_id: SMTR_RJ
+• route_id: BUS_409_CENTRAL_PAVUNA
+• trip_id: BUS_409_SEG_0610
+• stop_id: CENTRAL_BUS, PAVUNA_TERMINAL
+• shape_id: shape_BUS_409
+
+⸻
+
+🚇 Metrô
+• agency_id: METRORIO
+• route_id: METRO_L1_URUGUAI_GENERAL_OSORIO
+• trip_id: METRO_L1_SEG_0700
+• stop_id: URUGUAI, GENERAL_OSORIO
+• shape_id: shape_METRO_L1
+
+⸻
+
+🚆 Supervia (trem)
+• agency_id: SUPERVIA
+• route_id: RAMAL_SARACURUNA
+• trip_id: SARACURUNA_SEG_0515
+• stop_id: SARACURUNA, CENTRAL_SUPERVIA
+• shape_id: shape_SUPERVIA_SARACURUNA
+
+⸻
+
+🚈 VLT
+• agency_id: VLT_CARIOCA
+• route_id: VLT_L1_RODOVIARIA_PRAIA_FORMOSA
+• trip_id: VLT_L1_SEG_0800
+• stop_id: RODOVIARIA_VLT, PRAIA_FORMOSA
+• shape_id: shape_VLT_L1
+
+⸻
+
+⛴️ Barcas
+• agency_id: CCR_BARCAS
+• route_id: BARCAS_NITEROI_PRAÇA_XV
+• trip_id: BARCAS_SEG_0730
+• stop_id: PRAÇA_XV, NITEROI
+• shape_id: shape_BARCAS_NITEROI
+
+⸻
